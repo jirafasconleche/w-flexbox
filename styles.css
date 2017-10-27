@@ -9,9 +9,14 @@
   color: #fff;
   background-color: #5995DA;  /* Blue */
   padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .menu {
   border: 1px solid #fff;  /* For debugging */
-  width: 900px;
+  width: 76%;
+  display: flex;
+  justify-content:space-between;
 }
